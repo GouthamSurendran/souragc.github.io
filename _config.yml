@@ -1,2 +1,4 @@
-permalink: /notes/:year/:month/:day/:title
+name: sourag
 markdown: kramdown
+
+permalink: /blog/:year/:month/:day/:title
