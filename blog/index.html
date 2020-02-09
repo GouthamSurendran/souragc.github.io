@@ -6,6 +6,7 @@ title: Blogs
 	<ul class="posts">
 
 	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }}</span>  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	  {% endfor %}
-	</ul>
+    <li><span> <h6 style="display: inline" ><span>{{ post.date | date_to_string }}</span></h6><span class="valigndiv" > <h2 style="display: inline"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> </h2></span></span> </li>
+    <br>
+    {% endfor %}
+  </ul>
